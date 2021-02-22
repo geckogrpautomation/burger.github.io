@@ -1,0 +1,18 @@
+.card-body{
+    
+    background-color: #6B6B6B;
+    color: whitesmoke;
+}
+
+.btn-secondary{
+
+    float: right;
+    color: pink;
+    margin : 1%;
+}
+
+.btn-primary{
+
+    margin : 1%;
+    
+}
