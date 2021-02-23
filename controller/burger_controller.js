@@ -344,6 +344,13 @@ router.post('/api/clrBurger/:id', function (req, res) {
 
  });
 
+ router.get('*' , function (req,res){
+
+       res.status(400);
+       res.render('fourOfour', {title: '404: File Not Found'});
+
+    });
+ 
 
 //<------------------------------------------------------------------------------------SCRIPTS---------------------------------------------------------------------------------------------->
 
