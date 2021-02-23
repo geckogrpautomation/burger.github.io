@@ -2,8 +2,8 @@
 const Sequelize = require('sequelize');
 
 //Connect to correct database. Input your correct credentials here
-const sequelize = new Sequelize('burger_db', 'root', 'RmkL!CB~x2t>D;Y>%9-B_nnD', {
-  host: 'localhost',
+const sequelize = new Sequelize('wpj1ayugjnhjgpsu', 'ixgmtx4zhya2hil1', 'n7qvp2in7nuepfaw', {
+  host: 'phtfaw4p6a970uc0.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',
   dialect: 'mysql',
   pool: {
     max: 9,
