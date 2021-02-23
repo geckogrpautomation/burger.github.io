@@ -1,6 +1,3 @@
-
-
-
 //Get objects 
 const addBurgInpObj = document.getElementById("add-burg-inp");
 const addBurgObj = document.getElementById("add-burg-btn");

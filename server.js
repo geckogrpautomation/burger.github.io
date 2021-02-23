@@ -7,6 +7,8 @@ let routes = require(path.join(__dirname,'./controller/burger_controller'));
 const PORT = process.env.PORT || 3000;
 const app = express();
 
+app.use(express.static(path.join(__dirname, 'public')));
+
 // Parse application body as JSON
 app.use(express.urlencoded({ extended: true }));
 
@@ -22,6 +24,6 @@ app.engine('hbs', exphbs({
 
 app.set('view engine', 'hbs');
 
-app.use(express.static(path.join(__dirname, './public')));
+
 
 app.listen(PORT);
