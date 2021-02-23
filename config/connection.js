@@ -3,7 +3,7 @@ const Sequelize = require('sequelize');
 
 //Connect to correct database. Input your correct credentials here
 const sequelize = new Sequelize('wpj1ayugjnhjgpsu', 'ixgmtx4zhya2hil1', 'n7qvp2in7nuepfaw', {
-  host: 'localhost',
+  host: 'phtfaw4p6a970uc0.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',
   dialect: 'mysql',
   pool: {
     max: 9,
