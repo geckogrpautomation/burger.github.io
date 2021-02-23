@@ -15,7 +15,7 @@ burger order app
     <a href="github.com">
       <img src="./public/assets/SamLJackson.png" alt="Logo" width="240" height="240">
     </a>
-    <h1 align="center">Project Title - Note taker</h1> 
+    <h1 align="center">Project Title - Burger</h1> 
     <h2 align="center">Project Description</h2>
     <p align="center">A burger ordering app that displays database insert, update and create utilisation.
       <br/>
